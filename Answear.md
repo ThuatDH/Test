@@ -36,7 +36,7 @@
 * Global variable là variable mà bạn có thể access ở mọi lúc, mọi nơi
 * Local variable là variable mà chỉ accessible trong phạm vi function của nó
 * Ví dụ: 
-""" python
+``` python
 my_var = 'global'
 def call_me_1():
     print(f'call_me_1: {my_var}')
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     call_me_1()
     call_me_2()
     print(f'__main__: {my_var}')
-"""
+```
 ## Q11. What is __init__?
 * __init__ là hàm dựng hay constructor của một class. Khi một thực thể (instance) của một class được tạo ra thì hàm này sẽ được thực thi đầu tiên và một cách tự động
 ## Q12. What is self in Python?
